@@ -20,11 +20,12 @@ export default function ClickableLetter({ letter }: ClickableLetterProps) {
     return (
         <button
             onClick={() => setClicked(!clicked)}
-            className={`w-16 h-16 text-3xl font-bold rounded-lg transition-colors duration-300 ${
+            className={`w-24 h-24 text-4xl font-bold rounded-lg transition-colors duration-300 ${
                 clicked ? "bg-blue-500 text-white" : "bg-white text-blue-500"
             } hover:bg-blue-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-blue-400`}
         >
             {letter}
         </button>
+
     );
 }
