@@ -4,11 +4,9 @@ import ClickableLetter from "./components/ClickableLetters";
 import RoseAnimation from "./components/RoseAnimation";  // Import the RoseAnimation component
 import "./Design/globals.css";
 import "./Design/roses.css";
-import "./Design/newRose.css";
 import "./components/roses";
 import {useState} from "react";
 import letterMessages from "./components/letterMessages";
-import AnimatedCastle from "./newRoseAnimation";
 
 export default function Home() {
     const letters = ["J", "o", "l", "i", "n", "a"];
