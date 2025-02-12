@@ -10,8 +10,8 @@
 }
 
 .rose{
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;
     position: absolute;
     right: 0;
     display: inline-block;
@@ -22,7 +22,7 @@
     width: 50px;
     height: 50px;
     background: #fe7696;
-    border-radius: 0 50%;
+    border-radius: 0px 50%;
     position: absolute;
     box-shadow: 0 0 10px #D1123F;
     z-index: 2;
@@ -54,7 +54,7 @@
     transform: rotate(90deg);
     width: 40px;
     height: 40px;
-    left: 0;
+    left: 0px;
     top: -20px;
     z-index: 1;
     background: #f03a64;
@@ -76,7 +76,7 @@
 .leaf{
     position: absolute;
     top: 120px;
-    left: 0;
+    left: 0px;
 }
 
 .stem{
@@ -95,7 +95,7 @@
 .leafs{
     width: 50px;
     height: 40px;
-    border-radius: 0 50%;
+    border-radius: 0px 50%;
     background: #77a377;
     position: absolute;
     top: 0;

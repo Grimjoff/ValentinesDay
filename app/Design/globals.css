@@ -6,7 +6,7 @@ html {
 body {
     height: 100%;
     min-height: 100vh;
-    background: #fadede;
+    background: #f7d2d2;
 }
 
 /* Optionally, ensure that no other containers have conflicting styles */
@@ -16,7 +16,11 @@ body {
 
 .Text{
     color: #8ac78a;
-    transform: translate(-700%,500%);
+    transform: translate(230%,440px);
+    background-color: white;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid black;
 }
 
 .buttonRow { /* Assuming this is the class of your container */
@@ -24,6 +28,8 @@ body {
     justify-content: center;
     display: flex;
     height: 100%;
+    top: 100px;
+    transform: translate(0px,400px);
 }
 
 .unclickedButton{
@@ -33,7 +39,8 @@ body {
     padding: 10px;
     color: black;
     border: none;
-    background-color: #fadede;
+    background-color: #f7d2d2;
+    font-family: 'Sacramento', cursive;
 }
 .clickedButton {
     width: 48px;
@@ -41,6 +48,7 @@ body {
     font-size: 70px;
     padding: 10px;
     border: none;
-    background-color: #fadede;
+    background-color: #f7d2d2;
     color: #C21E56;
+    font-family: 'Sacramento', cursive;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import './roses.css';
+import '../Design/roses.css';
 
 const RoseAnimation = ({ left, top }: { left: string; top: string }) => {
     return (
