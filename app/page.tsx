@@ -9,7 +9,7 @@ import letterMessages from "./components/letterMessages";
 
 export default function Home() {
     const letters = ["J", "o", "l", "i", "n", "a"];
-    const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
+    const [selectedLetter, setSelectedLetter] = useState<string>("J");
 
     const handleLetterClick = (letter: string) => {
         setSelectedLetter(letter);
@@ -23,7 +23,7 @@ export default function Home() {
     const [isAuthenticated, setIsAuthenticated] = useState(false);
     const [inputPassword, setInputPassword] = useState("");
 
-    const correctPassword = "123"; // Change this
+    const correctPassword = "Jolina"; // Change this
 
     const handleLogin = () => {
         if (inputPassword === correctPassword) {
