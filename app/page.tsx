@@ -36,7 +36,7 @@ export default function Home() {
     if (!isAuthenticated) {
         return (
             <div className="login-screen">
-                <h2>Mach Vollbild an und sag wie du heißt:</h2>
+                <h2>Mach bitte Vollbild an und sag wie du heißt (Erster Buchstabe groß Rest klein):</h2>
                 <input
                     type="password"
                     value={inputPassword}
