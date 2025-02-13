@@ -4,7 +4,6 @@ import ClickableLetter from "./components/ClickableLetters";
 import RoseAnimation from "./components/RoseAnimation";  // Import the RoseAnimation component
 import "./Design/globals.css";
 import "./Design/roses.css";
-import "./components/roses";
 import {useState} from "react";
 import letterMessages from "./components/letterMessages";
 
@@ -66,7 +65,10 @@ export default function Home() {
 
             {/* Roses Animation */}
             {roses.map((rose, index) => (
-                <RoseAnimation key={index} left={rose.left} top={rose.top} />
+                <RoseAnimation
+                    key={index}
+                    left={rose.left}
+                    top={rose.top} />
             ))}
 
         </div>

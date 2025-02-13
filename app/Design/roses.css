@@ -1,17 +1,14 @@
 
 
 .container{
-    width: 10px;
-    height: 50px;
+    width: 0.52vw;
+    height: 4.63vh;
     position: absolute;
     top: 52%;
     left: 40%;
-    transform: translate(-500%,-50%);
 }
 
 .rose{
-    width: 0px;
-    height: 0px;
     position: absolute;
     right: 0;
     display: inline-block;
@@ -19,12 +16,12 @@
 }
 
 .petal{
-    width: 50px;
-    height: 50px;
+    width: 2.604166667vw;
+    height: 4.62962963vh;
     background: #fe7696;
-    border-radius: 0px 50%;
+    border-radius: 0 50%;
     position: absolute;
-    box-shadow: 0 0 10px #D1123F;
+    box-shadow: 0 0 2vw #D1123F;
     z-index: 2;
     transform-origin: bottom right;
     animation: zhankai2 10s infinite;
@@ -35,15 +32,15 @@
     transform-origin: right bottom;
     transform: rotate(90deg);
     background: #fe7696;
-    left: -10px;
+    left: -0.5vw;
     animation: zhankai1 10s infinite;
 }
 
 .petal:nth-child(3){
-    width: 40px;
-    height: 40px;
-    left: 10px;
-    top: -20px;
+    width: 2.083333333vw;
+    height: 3.703703704vh;
+    left: 0.5vw;
+    top: -2vh;
     z-index: 1;
     background: #f03a64;
     transform-origin: bottom right;
@@ -52,10 +49,10 @@
 
 .petal:nth-child(4){
     transform: rotate(90deg);
-    width: 40px;
-    height: 40px;
-    left: 0px;
-    top: -20px;
+    width: 2.083333333vw;
+    height: 3.703703704vh;
+    left: 0;
+    top: -2vh;
     z-index: 1;
     background: #f03a64;
     transform-origin: bottom right;
@@ -63,11 +60,11 @@
 }
 
 .petal:nth-child(5){
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
-    left: 20px;
-    top: -30px;
+    width: 2.604166667vw;
+    height: 4.62962963vh;
+    border-radius: 2vh;
+    left: 1vw;
+    top: -3vh;
     z-index: 0;
     background: #d1123f;
 
@@ -75,41 +72,40 @@
 
 .leaf{
     position: absolute;
-    top: 120px;
-    left: 0px;
+    top: 11.1111vh;
 }
 
 .stem{
-    width: 200px;
-    height: 40px;
+    width: 10.41666667vw;
+    height: 3.703703704vh;
 
     background: transparent;
     border: 8px solid #8ac78a;
     border-color: #77a377 transparent transparent transparent;
     border-radius: 50% 50%;
-    transform: translate(-40%,-20%) rotate(100deg);
+    transform: translate(-4.3vw,0vw) rotate(100deg);
 
 
 }
 
 .leafs{
-    width: 50px;
-    height: 40px;
+    width: 2.7vw;
+    height: 4vh;
     border-radius: 0px 50%;
     background: #77a377;
     position: absolute;
     top: 0;
-    left: 100px;
+    left: 5vw;
     z-index: 49;
-    transform: translate(-250%,30%);
+    transform: translate(-6.5vw,1vh);
 }
 
 .leafs:nth-child(2){
-    width: 50px;
-    height: 40px;
-    top: 40px;
-    left: 100px;
-    transform: translate(-120%,-120%) rotate(120deg);
+    width: 2.7vw;
+    height: 4vh;
+    top: 3vh;
+    left: 5vw;
+    transform: translate(-3vw,-3vh) rotate(120deg);
 
 }
 
