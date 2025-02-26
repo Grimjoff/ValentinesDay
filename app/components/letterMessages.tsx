@@ -21,14 +21,16 @@ const letterMessages: { [key: string]: string } = {
         " als Person so unglaublich wertvoll und sympathisch." +
         " PC Teile zu ersetzen machst du mit links, du kannst das und alles andere auch.",
     n: "Nie nicht lustig: Mit dir kann man so gut lachen und das nicht" +
-        "weil ich die Witze mache. Es macht einfach Spaß mit dir zu reden," +
+        " weil ich die Witze mache. Es macht einfach Spaß mit dir zu reden," +
         " wenn du streamen würdest wär ich immer dabei.",
     a: "Aufzwingend: Du hattest das Wort als Witz bei Richard benutzt, aber ich wollte" +
         " es trotzdem nochmal benutzen um zu sagen wie unglaublich dankbar ich dir bin" +
         " das du es gemacht hast. Hättest du es nicht gemacht, hätte ich dich vielleicht" +
         " gar nicht so kennengelernt wie ich es jetzt getan habe. Da hätte ich ja einiges verpasst." +
         " Attraktiv: Das erste Wort bei A ist so doof also nehm ich mir nochmal die Möglichkeit" +
-        " dir zu sagen das du äußerlich mindestens genau so schön bist wie innerlich. Ich hab dich lieb, Jolina"
+        " dir zu sagen das du äußerlich genau so schön bist wie innerlich. Jetzt bist " +
+        "du gerade nach ner Stunde wieder aufgewacht und siehst schon wieder insgesamt perfekt aus, einfach crazy. Augen, Lächeln, Gesicht, Haare, alles. " +
+        "Die Skala wird wortwörtlich selbst im Schlaf gesprengt. Ich hab dich lieb, Jolina"
 };
 
 export default letterMessages;
